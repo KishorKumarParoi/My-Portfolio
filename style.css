@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+}
+
+h1{
+    font-size: 70px;
+    color: blue;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+}
+
+.orange-color{
+    color: orange;
+}
+
+.flexible-container{
+    display: flex;
+}
+.top-banner{
+    background-image: url(developer-portfolio-main/images/top-banner.png);
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-right: 2%;
+}
+p{
+    font-size: 20px;
+    padding: 5px;
+}
+.half-width img{
+    width: 100%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+.dream-big{
+    background-image: url(developer-portfolio-main/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 5%;
+}
+
+.dev{
+    color: orange;
+}
+.experience-area h1{
+    padding-left: 2%;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 20px 5px blue ;
+    padding: 25px;
+    border-radius: 15px;
+}
+.ex{
+    background-image: url(developer-portfolio-main/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-developer{
+    border-left: 8px solid red;
+}
+#baby-web-developer{
+    border-left: 8px solid magenta;
+}
+footer p{
+    padding-top: 7%;
+    text-align: center;
+    font-weight: 300;
+}
